@@ -1,0 +1,260 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Yu gothic UI";
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-box {
+    padding: 1em 1em;
+    border: solid 5px #74DE8B;
+    border-radius: 8px;
+    display: flex;
+    flex: auto;
+}
+
+.item-title {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 3px;
+    line-height: 1;
+    font-size: 19px;
+    color: #74DE8B;
+    font-weight: bold;
+    flex: none;
+}
+
+.clear{
+    clear: both;
+}
+
+/* 個別のスタイリング */
+
+/* ヘッダー */
+header {
+    height: 40px;
+    width: 100%;
+    background-color: #5c5c5c;
+    color: white;
+    z-index: 10;
+    position: fixed;
+    top:0;
+}
+
+.header-left p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.ver {
+    font-size: 12px;
+}
+
+/* トップ */
+.top-wrapper{
+    padding-top: 40px;
+}
+
+/* 名前部分 */
+
+.name-item {
+    flex: none;
+    margin-right: 30px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.twitter-icon{
+    height: 1.4em;
+    width: 1.4em;
+    padding: 0.2em;
+    background-color: #00aced;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}
+
+.name-block {
+    align-items: center;
+    margin: 0 1.3em 0 1.8em;
+}
+
+.name-item h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 自分について */
+
+.about-me-item{
+    flex: 1;
+}
+
+.about-me-box{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-box p{
+    font-size: 20px;
+}
+
+/* ミドル */
+
+/* 状況 */
+.progress-item{
+    flex:1;
+}
+
+.progress-box{
+    display: table;
+}
+
+.progress-row{
+    display: table-row;
+}
+
+.progress-cell{
+    display: table-cell;
+    padding: 0 15px;
+}
+
+.study{
+    width: 20%;
+}
+
+.goal{
+    width: 20%;
+}
+
+.parcentage{
+    width: 30px;  /* あえて小さい値を指定 */
+}
+
+.progress-area{
+    width:50%;
+}
+
+progress{
+    width: 100%;
+}
+
+/* ボトム */
+.bottom-wrapper{
+    min-height:500px;
+}
+
+.bottom-wrapper .container{
+    min-height:500px;
+}
+
+/* 最近勉強したこと */
+.learned-area {
+    flex:2;
+    margin-right:15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.learned-listarea{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.learned-list{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.learned-list-day{
+    width: 100px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.learned-box{
+    flex:auto;
+}
+
+.learned-list-text{
+    text-decoration: none;
+    color: black;
+    flex:1;
+}
+
+.learned-item{
+    flex:auto;
+}
+
+/* 教えられること、勉強したいこと */
+.can-want-area{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left: 15px;
+}
+
+.can-item{
+    flex:1;
+}
+
+.can-box{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+
+.want-item{
+    flex:1;
+}
+
+.want-box{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+
+/* フッター */
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #5c5c5c;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+
